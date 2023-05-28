@@ -41,3 +41,53 @@ header .netflixImage {
   border-radius: 10px;
   margin: 0 2rem;
 }
+/* BACKGROUND WITH MOVIES ON IT */
+main .moviesBg {
+  background-image: linear-gradient(
+      to top right,
+      hsl(0, 100%, 17%),
+      hsla(237, 100%, 10%, 0.8),
+      transparent
+    ),
+    url('./Assets/images/CA-en-20230522-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+  background-size: cover;
+  width: 95%;
+  height: 80vh;
+  margin: auto;
+  border-radius: 25px;
+  padding: 10rem 0;
+  padding-left: 5%;
+}
+.moviesBg h1 {
+  font-size: 5rem;
+  max-width: 20ch;
+  font-weight: 900;
+}
+.moviesBg h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 2rem 0;
+}
+.moviesBg p {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.emailAndStart {
+  background: #000;
+}
+.emailAndStart .buttonMain {
+  background: red;
+  margin-left: 1rem;
+  width: 10%;
+  border: none;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 700;
+  border-radius: 10px;
+  padding-right: 2rem;
+  padding-left: 1rem;
+  position: relative;
+}
+.emailAndStart .buttonMain .arrow {
+  color: #fff;
+}
