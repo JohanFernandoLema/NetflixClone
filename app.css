@@ -3,8 +3,10 @@
   margin: 0;
   box-sizing: border-box;
 }
-body {
-  background-color: red;
+
+header,
+main {
+  background: #000;
 }
 header .netflixImage {
   width: 10%;
@@ -90,4 +92,35 @@ main .moviesBg {
 }
 .emailAndStart .buttonMain .arrow {
   color: #fff;
+}
+
+/* INFO SECTION */
+.sectionInfo {
+  width: 85%;
+  margin: auto;
+}
+.sectionInfo .category {
+  display: grid;
+  grid-template-columns: 50% 40%;
+  align-items: center;
+  color: #fff;
+}
+.sectionInfo .categoryRight {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  align-items: center;
+  color: #fff;
+}
+
+.sectionInfo .category .info,
+.sectionInfo .categoryRight .infoRight {
+  padding-left: 4rem;
+}
+.sectionInfo .category .info h1,
+.sectionInfo .categoryRight .infoRight h1 {
+  font-size: 3rem;
+}
+.sectionInfo .category .info p,
+.sectionInfo .categoryRight .infoRight p {
+  font-size: 1.3rem;
 }
