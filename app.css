@@ -111,6 +111,20 @@ main .moviesBg {
   align-items: center;
   color: #fff;
 }
+.sectionInfo .category img {
+  background: radial-gradient(
+    hsla(0, 100%, 25%, 0.9),
+    hsla(237, 100%, 10%, 0.8)
+  );
+  border-radius: 5rem;
+}
+.sectionInfo .categoryRight img {
+  background: radial-gradient(
+    hsla(0, 100%, 25%, 0.9),
+    hsla(237, 100%, 10%, 0.8)
+  );
+  border-radius: 5rem;
+}
 
 .sectionInfo .category .info,
 .sectionInfo .categoryRight .infoRight {
