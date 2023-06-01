@@ -5,12 +5,18 @@
 }
 
 header,
-main {
+main,
+footer,
+html {
   background: hsl(223, 100%, 6%);
 }
 header .netflixImage {
   width: 10%;
   height: 30%;
+}
+header .headerContent {
+  width: 95%;
+  margin: auto;
 }
 .btns {
   display: flex;
@@ -73,8 +79,9 @@ main .moviesBg {
   font-size: 1.1rem;
   font-weight: 400;
 }
-.emailAndStart div .inputField {
-  width: 16rem;
+.emailAndStart {
+  display: grid;
+  grid-template-columns: 30% 80%;
 }
 .emailAndStart .buttonMain {
   background: red;
@@ -181,4 +188,73 @@ article:first-child {
 }
 .show-text .plus-icon {
   display: none;
+}
+/* FOOTER INFORMATION */
+footer {
+  color: #fff;
+}
+footer .footerWrap {
+  width: 80%;
+  margin: auto;
+}
+footer .footerWrap p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+footer .footerWrap .bottomContact {
+  display: grid;
+  grid-template-columns: 30% 10%;
+}
+footer .footerWrap .bottomContact button {
+  background: red;
+  border-radius: 8px;
+  border: none;
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.blocks {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.firstBlock ul,
+.secondBlock ul,
+.thirdBlock ul,
+.fourthBlock ul {
+  list-style-type: none;
+  text-transform: capitalize;
+}
+.firstBlock a,
+.secondBlock a,
+.thirdBlock a,
+.fourthBlock a {
+  color: hsl(188, 9%, 69%);
+}
+footer .footerWrap .footerInfo p {
+  margin: 3rem 0;
+}
+footer .footerWrap p:last-child {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  text-transform: capitalize;
+}
+footer .footerWrap select {
+  padding: 0.3rem;
+  width: 8rem;
+  padding-left: 2rem;
+  color: #fff;
+  font-weight: 500;
+  background: #000;
+  box-shadow: inset 2px 2px 2px #fff;
+  position: relative;
+}
+footer .footerWrap .languageBottom {
+  position: relative;
+  margin-top: 3rem;
+}
+footer .footerWrap .iconLanguage {
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  left: 10px;
 }
