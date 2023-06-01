@@ -59,10 +59,10 @@ main .moviesBg {
     url('./Assets/images/CA-en-20230522-popsignuptwoweeks-perspective_alpha_website_large.jpg');
   background-size: cover;
   width: 95%;
-  height: 80vh;
+  height: auto;
   margin: auto;
+  padding: 8rem 0;
   border-radius: 25px;
-  padding: 10rem 0;
   padding-left: 5%;
 }
 .moviesBg h1 {
@@ -116,9 +116,13 @@ main .moviesBg {
     hsla(0, 100%, 25%, 0.9),
     hsla(237, 100%, 10%, 0.8)
   );
+  width: 100%;
+  height: 100%;
   border-radius: 5rem;
 }
 .sectionInfo .categoryRight img {
+  width: 100%;
+  height: 100%;
   background: radial-gradient(
     hsla(0, 100%, 25%, 0.9),
     hsla(237, 100%, 10%, 0.8)
