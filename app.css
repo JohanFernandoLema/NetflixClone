@@ -113,8 +113,8 @@ main .moviesBg {
 }
 .sectionInfo .category img {
   background: radial-gradient(
-    hsla(0, 100%, 25%, 0.9),
-    hsla(237, 100%, 10%, 0.8)
+    hsla(0, 100%, 25%, 0.7),
+    hsla(237, 100%, 10%, 0.6)
   );
   width: 100%;
   height: 100%;
@@ -124,8 +124,8 @@ main .moviesBg {
   width: 100%;
   height: 100%;
   background: radial-gradient(
-    hsla(0, 100%, 25%, 0.9),
-    hsla(237, 100%, 10%, 0.8)
+    hsla(0, 100%, 25%, 0.7),
+    hsla(237, 100%, 10%, 0.4)
   );
   border-radius: 5rem;
 }
@@ -435,5 +435,10 @@ footer .footerWrap .iconLanguage {
   }
   .blocks {
     display: block;
+  }
+  .questions .section-center .question .question-text p {
+    padding: 0 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
   }
 }
