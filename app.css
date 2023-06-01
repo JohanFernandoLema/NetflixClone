@@ -86,7 +86,7 @@ main .moviesBg {
 .emailAndStart .buttonMain {
   background: red;
   margin-left: 1rem;
-  width: 12%;
+  width: 20%;
   border: none;
   height: 3.6rem;
   color: #fff;
@@ -221,7 +221,7 @@ footer .footerWrap p {
 }
 footer .footerWrap .bottomContact {
   display: grid;
-  grid-template-columns: 30% 10%;
+  grid-template-columns: 40% 20%;
 }
 footer .footerWrap .bottomContact button {
   background: red;
@@ -275,4 +275,165 @@ footer .footerWrap .iconLanguage {
   z-index: 1;
   top: 10px;
   left: 10px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1200px) {
+  .sectionInfo .category .info h1 {
+    padding-top: 3rem;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .sectionInfo .categoryRight .infoRight h1 {
+    padding-top: 3rem;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .sectionInfo {
+    width: 95%;
+  }
+  .sectionInfo .categoryRight .infoRight p {
+    font-size: 1rem;
+  }
+  .sectionInfo .category .info p {
+    font-size: 1rem;
+  }
+  .emailAndStart .buttonMain {
+    width: 35%;
+  }
+  .moviesBg h1 {
+    font-size: 2.7rem;
+    font-weight: 700;
+  }
+  .moviesBg p {
+    font-size: 1.3rem;
+    font-weight: 300;
+  }
+  .moviesBg h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 1rem 0;
+  }
+  footer .footerWrap .bottomContact {
+    grid-template-columns: 50% 30%;
+  }
+  footer .footerWrap .bottomContact button {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  header .netflixImage {
+    width: 20%;
+    height: 30%;
+    margin: 1rem 0;
+  }
+
+  .btns select {
+    padding: 0.3rem;
+    width: 3rem;
+    padding-left: 2rem;
+    color: #fff;
+    font-weight: 500;
+    background: #000;
+    box-shadow: inset 2px 2px 2px #fff;
+  }
+  .btns button {
+    margin: 1rem 0;
+    width: 5rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+  }
+  .sectionInfo .category {
+    grid-template-columns: 1fr;
+  }
+  .questions {
+    width: 95%;
+  }
+  .sectionInfo .categoryRight img {
+    grid-template-columns: 1fr;
+    grid-row-start: 2;
+    grid-column: span 2;
+  }
+  .sectionInfo .categoryRight .infoRight {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .moviesBg h1 {
+    font-size: 2.7rem;
+    font-weight: 700;
+  }
+  .moviesBg h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 1rem 0;
+  }
+  .moviesBg p {
+    font-size: 1.3rem;
+    font-weight: 300;
+  }
+  .emailAndStart {
+    grid-template-columns: 1fr;
+  }
+  .emailAndStart input {
+    width: 95%;
+  }
+  .emailAndStart .buttonMain {
+    background: red;
+    width: 35%;
+    border: none;
+    height: 3.6rem;
+    color: #fff;
+    font-size: 1.3rem;
+    margin-left: 0;
+    font-weight: 700;
+    border-radius: 5px;
+  }
+  .sectionInfo {
+    width: 95%;
+    margin: auto;
+  }
+  .sectionInfo .category .info {
+    padding-left: 0;
+  }
+  .sectionInfo .category .info h1 {
+    padding-top: 3rem;
+    font-size: 2rem;
+  }
+  .sectionInfo .category .info p {
+    font-size: 1rem;
+  }
+  .sectionInfo .categoryRight .infoRight {
+    padding-left: 0;
+  }
+  .sectionInfo .categoryRight .infoRight h1 {
+    padding-top: 3rem;
+    font-size: 2rem;
+  }
+  .sectionInfo .categoryRight .infoRight p {
+    font-size: 1rem;
+  }
+
+  /* QUESTIONS */
+  .questions .section-center .question .question-title p {
+    font-size: 1.4rem;
+  }
+  /* FOOTER */
+  footer .footerWrap {
+    width: 95%;
+    margin: auto;
+  }
+  footer .footerWrap .bottomContact {
+    grid-template-columns: 1fr;
+  }
+  footer .footerWrap .bottomContact button {
+    width: 30%;
+    font-size: 1.1rem;
+    height: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    margin-left: 0;
+  }
+  .blocks {
+    display: block;
+  }
 }
